@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 class Handler implements URLHandler {
 
-    ArrayList<String> history = new ArrayList();
+    ArrayList<String> history = new ArrayList<>();
 
     public String handleRequest(URI url) {
         if(url.getPath().equals("/")) {
